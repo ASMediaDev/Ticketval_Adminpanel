@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="51dd13b8-9f3a-4681-b605-09211bf546c1" name="UbuntuServer" url="http://192.168.178.45">
+        <fileTransfer host="192.168.178.45" port="22" rootFolder="/home/alex/web" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="26fc8cfb-592c-4cd0-98b1-ecbe4330cf5a" name="1und1 Webspace TV" url="http://backend.ticketval.de">
+        <fileTransfer host="alexander-seitz-media.de" port="22" rootFolder="/tvbackend" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

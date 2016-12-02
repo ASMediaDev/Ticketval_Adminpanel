@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="sftp://u67060734@alexander-seitz-media.de:22/usr/bin/php" id="26ee665a-3d1e-4770-b91a-f3c42d279242" name="Remote PHP 5.3" debugger_id="php.debugger.XDebug">
+        <remote_data WEB_SERVER_CONFIG_ID="26fc8cfb-592c-4cd0-98b1-ecbe4330cf5a" WEB_SERVER_CONFIG_NAME="1und1 Webspace TV" HOST="alexander-seitz-media.de" PORT="22" ANONYMOUS="false" USERNAME="u67060734" PASSWORD="" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/alex/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="PHPUNIT_PHAR" custom_loader_path="$USER_HOME$/composer.phar" phpunit_phar_path="/usr/local/bin/phpunit.phar" />
+    </phpunit_settings>
+  </component>
+</project>
