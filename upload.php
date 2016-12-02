@@ -15,7 +15,7 @@ if (!isset($_SESSION['id'])) {
     $db_pwd = 'Xenyx-1832';
 
     $database = 'db658651383';
-    $table = 'testevent';
+    $table = 'testparty2';
 
     if (!mysql_connect($db_host, $db_user, $db_pwd))
         die("Can't connect to database");
@@ -33,9 +33,10 @@ if (!isset($_SESSION['id'])) {
 
             $filename = $_FILES['sel_file']['tmp_name'];
             $handle = fopen($filename, "r");
+            $manager = $_SESSION['id'];
 
             while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
-                $sql = "INSERT into testevent(ordernumber,ticketName,ticketId,customerName) values('$data[0]','$data[1]','$data[2]','$data[3]')";
+                $sql = "INSERT into testparty2(ordernumber,ticketName,ticketId,customerName,manager) values('$data[0]','$data[1]','$data[2]','$data[3]','$manager')";
                 mysql_query($sql) or die(mysql_error());
             }
 
