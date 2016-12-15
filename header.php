@@ -8,6 +8,7 @@ session_start();
     <meta charset="UTF-8">
     <title>TicketVal</title>
     <link rel="stylesheet" type="text/css" href="header_style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico">
 </head>
 
 <body>

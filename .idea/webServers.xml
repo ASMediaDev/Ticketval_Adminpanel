@@ -18,6 +18,22 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="d12e34ea-30ef-4a09-b768-8de859d3846d" name="TicketValPiLocal" url="http://192.168.178.8">
+        <fileTransfer host="192.168.178.8" port="22" rootFolder="/home/pi/www/ticketval.de/panel" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="65f3b29c-0a67-43d4-af75-1c20ab579a07" name="TicketValMacMini" url="http://adminpanel.ticketval.de">
+        <fileTransfer host="192.168.178.10" port="21" rootFolder="/ticketval.de/panel">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("db658651383.db.1and1.com", "dbo658651383", "Xenyx-1832", "db658651383");
+$conn = mysqli_connect("localhost", "dbuser", "Xenyx-1832", "tv_attendize");
 
 if (!$conn){
     die("Connection failed: ".mysqli_connect_error());
